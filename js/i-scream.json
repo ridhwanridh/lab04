@@ -15,7 +15,7 @@
       "name": "Peach Mango",
       "calories": 250,
       "type": "milkshake-type ice-cream",
-      "ingredients": [ "Peach Syrup", "Mango Chunks", "Vanilla Base" ],
+      "ingredients": [ "Peach Syrup", "Mango Boba", "Vanilla Base" ],
       "image": "https://ridhwanridh.github.io/lab04//images/peach-mango.svg"
     },
     {
@@ -29,14 +29,14 @@
       "name": "Vanilla Delight",
       "calories": 220,
       "type": "ice-cream",
-      "ingredients": [ "Vanilla Extract", "Candy", "Cherry" ],
+      "ingredients": [ "Vanilla Extract", "Whipped Cream", "Cherry" ],
       "image": "https://ridhwanridh.github.io/lab04//images/ice-cream-xtra1.svg"
     },
     {
       "name": "Vanilla Cookie Crumble",
       "calories": 290,
       "type": "ice-cream",
-      "ingredients": [ "Vanilla Extract", "Cheese Cream", "Cookie Crumble on Top" ],
+      "ingredients": [ "Vanilla Extract", "Whipped Cream", "Cookie Crumble on Top" ],
       "image": "https://ridhwanridh.github.io/lab04//images/ice-cream-xtra2.svg"
     }
   ]

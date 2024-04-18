@@ -50,3 +50,54 @@ h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
+.tab-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+.tab-list li {
+		float: left;
+	}
+.tab-list li button {
+			display: block;
+			color: black;
+			padding: 14px 16px;
+			text-align: center;
+			text-decoration: none;
+			transition: 0.3s;
+			font-size: 17px;
+			border: none;
+			outline: none;
+			background-color: inherit;
+		}
+.tab-list li button:hover {
+				background-color: #ddd;
+			}
+.tab-list li button.active {
+				background-color: #ccc;
+			}
+
+.tab-content {
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.tab-pane {
+	display: none;
+	animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
